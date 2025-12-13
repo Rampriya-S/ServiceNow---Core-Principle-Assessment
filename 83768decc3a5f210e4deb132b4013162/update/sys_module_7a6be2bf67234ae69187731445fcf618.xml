@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:9a3db3ea-05af-40ab-9cbb-792c32799c69",
+  "metadata": {
+    "timestamp": "2025-11-28T16:05:23.293Z",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.1.0",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "x-1460650-core-princip",
+      "version": "1.0.0",
+      "bom-ref": "pkg:servicenow/x-1460650-core-princip@1.0.0?sys_scope_id=83768decc3a5f210e4deb132b4013162",
+      "description": "[BUILD AGENT GENERATED]:  An application to ensure 5 core principles are assessed by all personas involved in projects",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/x-1460650-core-princip@1.0.0?sys_scope_id=83768decc3a5f210e4deb132b4013162"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/x-1460650-core-princip@1.0.0?sys_scope_id=83768decc3a5f210e4deb132b4013162"
+    }
+  ]
+}]]></content>
+        <external_source>false</external_source>
+        <path>x_1460650_core_pri/x-1460650-core-princip/1.0.0/bom.json</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-28 15:59:45</sys_created_on>
+        <sys_id>7a6be2bf67234ae69187731445fcf618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1460650_core_pri/x-1460650-core-princip/1.0.0/bom.json</sys_name>
+        <sys_package display_value="Core Princip" source="x_1460650_core_pri">83768decc3a5f210e4deb132b4013162</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Core Princip">83768decc3a5f210e4deb132b4013162</sys_scope>
+        <sys_update_name>sys_module_7a6be2bf67234ae69187731445fcf618</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-28 15:59:45</sys_updated_on>
+    </sys_module>
+</record_update>

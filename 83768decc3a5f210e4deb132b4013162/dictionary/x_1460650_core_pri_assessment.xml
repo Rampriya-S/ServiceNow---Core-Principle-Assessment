@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="87545cb8c36d7210e4deb132b4013198" label="Platform Health Assessment" max_length="40" name="x_1460650_core_pri_assessment" type="collection">
+        <element label="User Experience Score (1-5)" max_length="40" name="user_experience_score" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Project Name" mandatory="true" max_length="100" name="project_name" type="string"/>
+        <element label="Manageability Score (1-5)" max_length="40" name="manageability_score" type="integer"/>
+        <element label="Performance Score (1-5)" max_length="40" name="performance_score" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="1000" name="comments" type="string"/>
+        <element label="Security Score (1-5)" max_length="40" name="security_score" type="integer"/>
+        <element choice="1" label="Your Role" mandatory="true" max_length="40" name="persona" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Admin" sequence="0" value="admin"/>
+                <element inactive_on_update="false" label="Architect" sequence="1" value="architect"/>
+                <element inactive_on_update="false" label="Developer" sequence="2" value="developer"/>
+            </choice>
+        </element>
+        <element label="Upgradability Score (1-5)" max_length="40" name="upgradability_score" type="integer"/>
+    </element>
+</database>
